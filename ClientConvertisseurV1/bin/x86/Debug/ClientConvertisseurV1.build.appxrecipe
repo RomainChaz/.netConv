@@ -10,26 +10,35 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1775aa7a-f8ce-4edc-837e-4852869b26f5</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\ClientConvertisseurV1.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\ClientConvertisseurV1.exe">
       <PackagePath>entrypoint\ClientConvertisseurV1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
@@ -69,6 +78,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Microsoft.VisualBasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\Newtonsoft.Json\6.0.4\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\runtime.any.System.Collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
@@ -370,47 +382,47 @@
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\ClientConvertisseurV1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\ClientConvertisseurV1.xr.xml">
       <PackagePath>ClientConvertisseurV1.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\Core\ClientConvertisseurV1.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\bin\x86\Debug\Core\ClientConvertisseurV1.exe">
       <PackagePath>ClientConvertisseurV1.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

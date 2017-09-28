@@ -12,9 +12,9 @@
         <TextBlock x:Name="Devise" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" Text="Devise" VerticalAlignment="Top" Width="135" Margin="105,109,-178.333,-110" TextAlignment="Center"/>
         <TextBlock x:Name="MontantDevise" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" Text="Montant en Devise" VerticalAlignment="Top" Width="135" Margin="105,263,-178.333,-264" SelectionChanged="TextBlock_SelectionChanged" TextAlignment="Center">
         </TextBlock>
-        <ComboBox x:Name="ComboDevice" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="135" Margin="105,135,-176,-135"/>
+        <ComboBox x:Name="ComboDevise" ItemsSource="{Binding}" SelectedValuePath="Id" DisplayMemberPath="Nom" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="135" Margin="105,135,-176,-135"/>
         <TextBox x:Name="TextEuro" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" Margin="105,64,-169,-64" TextAlignment="Center"/>
         <TextBox x:Name="TextDevise" HorizontalAlignment="Left" Height="32" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" Margin="105,289,-169,-289" IsReadOnly="True" TextAlignment="Center"/>
-        <Button x:Name="Conv" Content="Convertir" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="135" Margin="105,200,-175.667,-200"/>
+        <Button x:Name="Conv" Content="Convertir" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="135" Click="Conv_Click"  Margin="105,200,-175.667,-200"/>
     </RelativePanel>
 </Page>
