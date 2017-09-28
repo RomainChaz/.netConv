@@ -1,0 +1,1 @@
+c:\users\admin\documents\visual studio 2017\Projects\ClientConvertisseurV1\ClientConvertisseurV1\ClientConvertisseurV1.csproj;x86
